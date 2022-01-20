@@ -1,0 +1,12 @@
+resource_group_name      = "sec-dev"
+resource_group_location  = "West Europe"
+storage_account_name     = "doc-storage"
+account_tier             = "Standard"
+account_replication_type = "LRS"
+account_kind             = "StorageV2"
+env_name                 = "dev"
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+client_id       = "00000000-0000-0000-0000-000000000000"
+client_secret   = "xxx"
+tenant_id       = "00000000-0000-0000-0000-000000000000"
