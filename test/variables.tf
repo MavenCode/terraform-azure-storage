@@ -1,0 +1,11 @@
+variable "resource_group_name" {}
+variable "resource_group_location" {}
+variable "storage_account_name" {}
+variable "account_tier" {}
+variable "account_replication_type" {}
+variable "account_kind" {}
+variable "env_name" {}
+variable "client_id" {}
+variable "subscription_id" {}
+variable "client_secret" {}
+variable "tenant_id" {}
