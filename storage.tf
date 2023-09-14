@@ -4,7 +4,7 @@ resource "azurerm_storage_account" "storage" {
   location                 = var.resource_group_location
   account_tier             = var.account_tier
   account_replication_type = var.account_replication_type
-  allow_blob_public_access = false
+  #allow_blob_public_access = false
   account_kind             = "StorageV2"
   is_hns_enabled           = true
 
